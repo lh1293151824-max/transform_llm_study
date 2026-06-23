@@ -1,5 +1,17 @@
+# HuggingFace / model files
 model/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Dataset
+data/
+datasets/
+
+# Python
 __pycache__/
 *.pyc
-.venv/
-venv/
+*.pyo
+*.pyd
