@@ -1,5 +1,6 @@
 # HuggingFace / model files1111
-model/
+.idea/
+qwen-1.5b/
 *.safetensors
 *.bin
 *.pt
