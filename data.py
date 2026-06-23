@@ -1,4 +1,4 @@
-# 加载预训练数据11111
+# 加载预训练数据123
 from datasets import load_dataset
 
 ds = load_dataset('json', data_files='data/mobvoi_seq_monkey_general_open_corpus.clean.jsonl')
