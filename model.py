@@ -1,4 +1,6 @@
 from transformers import AutoConfig,AutoModelForCausalLM,AutoTokenizer
+from datasets import load_dataset
+
 model_path = "./qwen-1.5b"
 config = AutoConfig.from_pretrained(model_path)
 #重新初始化的模型加载方式    model = AutoModelForCausalLM.from_config(config,trust_remote_code=True)
