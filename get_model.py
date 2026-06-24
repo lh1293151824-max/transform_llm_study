@@ -3,7 +3,7 @@ import os
 from huggingface_hub import snapshot_download
 
 
-# Use the Hugging Face mirror.
+# Use the Hugging Face mirror1111.
 # os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
 MODEL_ID = "Qwen/Qwen2.5-1.5B"
